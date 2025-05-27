@@ -1,0 +1,111 @@
+*{
+  box-sizing: border-box;
+}
+.userdata{
+  border: 1px solid black;
+  width: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 10px;
+  margin: 10px;
+}
+.title{
+    background-color: rgb(101, 101, 245);
+    color: antiquewhite;
+    margin: 0;
+    border-radius: 8px 8px 0px 0px;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    font-weight: 600;
+}
+.data{
+     display: flex;
+     margin: 10px;
+     justify-content: center;
+     align-items: center;
+     margin-top: 3vh;
+}
+label{
+  font-size: 24px;
+  margin-right: 10px;
+  font-weight: 600;
+}
+input{
+   font-size: 24px;
+}
+.subtn{
+  font-size: 24px;
+  margin-left: 10px;
+  background-color:rgb(101, 101, 245) ;
+  color: antiquewhite;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  padding: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.list{
+  width: 95%;
+  box-shadow: 0px 0px 3px rgb(101, 101, 245);
+  border-radius: 5px;
+  margin: 10px;
+  margin-top: 5vh;
+  max-height: 33vh;
+  overflow: scroll;
+  scrollbar-shadow-color: rgb(101, 101, 245);
+}
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+li{
+  font-size: 24px;
+  font-weight: 500;
+  margin: 10px;
+}
+.delbtn{
+  background-color: red;
+  border: none;
+  font-size: 24px;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 20px;
+}
+@media (max-width:1080px) {
+  .userdata{
+    width: 75%;
+  }
+}
+@media (max-width:600px) {
+  .userdata{
+    width: 95%;
+    margin: 10px;
+    position: absolute;
+    left: 47.5%;
+    text-align: center;
+  }
+  .data{
+    display: flex;
+    flex-direction: column;
+  }
+  .subtn{
+    width: 98%;
+    margin: 0px;
+  }
+  input{
+    width: 98%;
+    margin-bottom: 10px;
+  }
+  label{
+    display: none;
+  };
+}
