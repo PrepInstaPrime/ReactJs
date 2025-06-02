@@ -1,0 +1,28 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 0px auto;
+    margin-top: 10rem;
+    gap: 1rem;
+    padding: 3rem 3rem ;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px rgb(0 0 0/0.2);
+}
+.input, .select{
+    height: 2rem;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding-left: 1rem;
+
+}
+.startBtn{
+    position: relative;
+    margin-top: 1rem;
+}
+.error{
+    position: absolute;
+    margin-top: 5.5rem;
+    color: red;
+}

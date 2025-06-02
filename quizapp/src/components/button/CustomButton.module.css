@@ -1,0 +1,8 @@
+.btnStyle{
+    background-color: red;
+    color: white;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    height: 2rem;
+}
