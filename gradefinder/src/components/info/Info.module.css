@@ -1,0 +1,31 @@
+.wrapper{
+    width: 20%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7rem;
+    box-shadow: 0px 3px 10px rgb(0 0 0/0.2);
+    padding: 2rem 3rem;
+    height: fit-content;
+    border-radius: 10px;
+}
+.input{
+    height: 2rem;
+    margin: 8px;
+    padding-left: 1rem;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+}
+.btnStyle{
+    height: 2rem;
+    margin: 8px;
+    padding-left: 1rem;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    font-weight: 400;
+}
+.error{
+    color: red;
+    position: absolute;
+    margin-top: -1.3rem;
+}

@@ -1,0 +1,6 @@
+.defaultStyle{
+    border: 1px solid lightgray;
+    background-color: rgb(246, 178, 7);
+    color: rgb(7, 54, 7);
+    padding: 5px;
+}
