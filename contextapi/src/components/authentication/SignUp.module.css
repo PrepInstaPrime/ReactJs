@@ -1,0 +1,63 @@
+.topCorner{
+    width: 50%;
+    height: 60vh;
+    border-radius: 100px;
+    background-color: #c1e3d6;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -15vh;
+    left: -15vw;
+}
+.bottomCorner{
+    width: 50%;
+    height: 60vh;
+    border-radius: 100px;
+    background-color: #c1e3d6;
+    transform: rotate(45deg);
+    position: relative;
+    top: 60vh;
+    left: 65vw;
+}
+.body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #a7d7c5;
+    overflow: hidden;
+}
+.userData{
+    position: relative;
+    width: 35%;
+    left: 30vw;
+    top: -35vh;
+    height: fit-content;
+    text-align: center;
+    padding: 2rem 3rem;
+    background-color: white;
+    border-radius: 30px;
+}
+.userform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    height: 3rem;
+    width: 90%;
+    margin: 1rem;
+    padding-left: 1rem;
+    border-radius: 10px;
+    border: 1px solid  #a7d7c5;
+}
+.btnStyle{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #84c7ae;
+    border: none;
+    border-radius: 10px;
+    color: white;
+   
+}
+.error{
+    color: red;
+}
