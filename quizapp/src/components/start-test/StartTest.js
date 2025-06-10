@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import styles from './StartTest.module.css'
 import { QUESTIONS_BY_SUBJECT } from '../../const'
-import { useNavigate } from 'react-router-dom';
 import CustomButton from '../button/CustomButton';
 import Result from '../result/Result';
 export default function StartTest() {
@@ -11,7 +10,6 @@ export default function StartTest() {
     let [answer, setAnswer]=useState("");
     let [currentIndex, setCurrentIndex]=useState(0);
     let [score, setScore]=useState(0);
-    let navigate= useNavigate();
     useEffect(()=>{
         let obj=JSON.parse(localStorage.getItem("userDetails"));
         let {user='' , subject=''}=obj||{};
