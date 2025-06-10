@@ -1,5 +1,6 @@
 # Final Frontend Project
-## Refer doc for UI details: https://docs.google.com/document/d/1sjEuvUL3j4L9TjDLpZuE0w-AqdYPhYtAQZzqwBQVnzM/edit?usp=sharing 
+## Refer doc for UI details:
+https://docs.google.com/document/d/1sjEuvUL3j4L9TjDLpZuE0w-AqdYPhYtAQZzqwBQVnzM/edit?usp=sharing 
 # Techispot
 
 Techispot is a community-driven platform for engineers, where they can connect, share insights, and stay updated on the latest technologies. Whether you're a seasoned professional or a curious student, Techispot aims to be your go-to hub for tech-related content.
